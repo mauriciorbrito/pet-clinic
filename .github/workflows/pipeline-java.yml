@@ -18,3 +18,9 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo "hola mundo laboratorio"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: testt
+        run: |
+          echo "hola 2"
